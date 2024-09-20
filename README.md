@@ -3,7 +3,7 @@
 
 **About me**  
 
-I’m a Data Scientist with a strong background in Software Engineering, passionate about leveraging data to drive impactful decisions. With a Master’s degree in Data Science and Engineering, I specialize in machine learning, exploratory data analysis, and data visualization. I enjoy tackling complex problems, collaborating with diverse teams, and continuously learning to stay at the forefront of technology. In my spare time, I work on personal projects to refine my skills and contribute to open-source communities
+Data Scientist skilled in Python, machine learning, and data analysis, with a proven ability to develop and deploy predictive models that deliver actionable insights.
 
 ## 📫 Contact Me
 
