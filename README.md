@@ -78,6 +78,11 @@ Data Scientist skilled in Python, machine learning, and data analysis, with a pr
 - **Objective:** Engage with an AI-powered chatbot that answers questions about specific books, providing insights on plots, characters, themes, and more.
 - 🔗 **Project Link:** [View Project](https://llm-based-book-chatbot-3sgawb2wwyf77qipzyykxv.streamlit.app/BookBot)
 
+  #### **Google Gemini Chatbot**
+- **Objective:** Engage with an AI-powered chatbot that answers questions .
+- 🔗 **Project Link:** [View Project](https://app-gemini-chatbot-kzuzu4ldkv2s2tgrjszvxw.streamlit.app/)
+  
+
 
   ### 🎓 Education
 
