@@ -5,11 +5,6 @@
 
 Data Scientist skilled in Python, machine learning, and data analysis, with a proven ability to develop and deploy predictive models that deliver actionable insights.
 
-## 📫 Contact Me
-
-- **Email:** sujswa@gmail.com  
-- **LinkedIn:** [linkedin.com/in/swathy-ramakrishnan](https://www.linkedin.com/in/swathy-ramakrishnan/)  
-- **GitHub:** [github.com/swaty06](https://github.com/swaty06?tab=repositories)
 
 ### 🛠️ Technical Skills
 
@@ -97,6 +92,12 @@ Data Scientist skilled in Python, machine learning, and data analysis, with a pr
 *July 2011 – April 2015*
 
 - **Bachelor Thesis:** Filtering of Online Social Network User Walls
+
+## 📫 Contact Me
+
+- **Email:** sujswa@gmail.com  
+- **LinkedIn:** [linkedin.com/in/swathy-ramakrishnan](https://www.linkedin.com/in/swathy-ramakrishnan/)  
+- **GitHub:** [github.com/swaty06](https://github.com/swaty06?tab=repositories)
 
 
 
