@@ -65,10 +65,6 @@ Data Scientist skilled in Python, machine learning, and data analysis, with a pr
  - **Objective:** Analyzed yield predictions and classified crops that grow in specific regions.
   - 🔗 **Project Link:** [View Project](https://urban-agriculture-in-milan-crop-yield.streamlit.app/Crop%20Selection)
    
-#### **URL-Based Summarization Tool for Book Reviews**
-- **Objective:** Quickly summarize book reviews by pasting up to three URLs, generating concise summaries or answering specific questions about the content.
-- 🔗 **Project Link:** [View Project](https://url-based-summarization-tool-for-book-reviews-hzoozdiwdtp8mgqv.streamlit.app/Url%20Summarisor)
-
   #### **LLM-Based Book Chatbot**
 - **Objective:** Engage with an AI-powered chatbot that answers questions about specific books, providing insights on plots, characters, themes, and more.
 - 🔗 **Project Link:** [View Project](https://llm-based-book-chatbot-3sgawb2wwyf77qipzyykxv.streamlit.app/BookBot)
