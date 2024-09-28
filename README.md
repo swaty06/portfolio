@@ -1,4 +1,4 @@
-# Welcome to My Portfolio! 🎉
+# Welcome to My Portfolio! 
 ## Hi  I'm Swathy Ramakrishnan 👋
 
 **About me**  
