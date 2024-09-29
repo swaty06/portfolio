@@ -64,6 +64,7 @@ Data Scientist skilled in Python, machine learning, and data analysis, with a pr
 #### **Identifying Potential Areas for Urban Agriculture in Milan, Italy.**
  - **Objective:** Analyzed yield predictions and classified crops that grow in specific regions.
   - 🔗 **Project Link:** [View Project](https://urban-agriculture-in-milan-crop-yield.streamlit.app/Crop%20Selection)
+    
    
   #### **LLM-Based Book Chatbot**
 - **Objective:** Engage with an AI-powered chatbot that answers questions about specific books, providing insights on plots, characters, themes, and more.
