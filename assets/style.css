@@ -1,0 +1,72 @@
+.container-fluid{
+    margin: 5px;
+}
+
+img{
+   border-radius: 5px;
+}
+
+.row {
+    padding: 8px;
+}
+
+.heading {
+    color: steelblue;
+}
+.text{
+    font-size: 1.3em;
+}
+
+#contactform {
+    width: 60%;
+    margin: auto;
+}
+
+.project-title {
+    display: inline;
+    font-size: 1.5em;
+    color: steelblue;
+}
+
+.education-row {
+    padding: 0;
+}
+
+#pp-img {
+    border-radius: 50%;
+    margin-top: 5%;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-nav a:hover {
+    background-color: rgb(31, 31, 31);
+}
+
+#home a {
+    font-size: 1.3em; 
+    color: steelblue; 
+    /* font-weight: bold; */
+}
+
+.my-hyperlinks {
+    padding-left: 5px;
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+/* .link-icon {
+    visibility: hidden;
+}
+
+.my-hyperlinks:hover .link-icon {
+    visibility: hidden;
+}
+
+.my-hyperlinks:hover .link-icon {
+    visibility: visible;
+} */
