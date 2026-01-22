@@ -76,6 +76,16 @@ img {
     border-radius: 20px;
     margin-left: 15px;
 }
+.project-card img {
+  width: 100%;
+  height: 150px;          /* 🔥 KEY CHANGE */
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.project-card:hover img {
+  transform: scale(1.05); /* subtle zoom like Sai Charan */
+}
 
 .navbar-dark .navbar-nav .nav-link.btn-outline-light:hover {
     background-color: #3498db;
