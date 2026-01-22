@@ -498,13 +498,34 @@ img {
   .experience-card {
     display: flex;
     gap: 2rem;
-    background: #fff;
-    border-radius: 10px;
-    padding: 2rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+    border-left: 4px solid #0d6efd;
+    border-radius: 12px;
+    padding:25px 30px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.05);
     transition: transform 0.3s ease;
   }
-  
+  .experience-card h5 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.position-duration {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.experience-list {
+  padding-left: 1.2rem;
+  margin-top: 10px;
+  list-style-type: disc;
+}
+
+.experience-list li {
+  margin-bottom: 10px; /* adds spacing between bullet points */
+  line-height: 1.6;
+}
+
+
   .experience-card:hover {
     transform: translateY(-5px);
   }
