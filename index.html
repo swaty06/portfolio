@@ -5,395 +5,223 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Swathy Ramakrishnan</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets\style.css">
-  <script src="https://kit.fontawesome.com/febd6a1905.js" crossorigin="anonymous"></script>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8D024LL4FG"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
 
-    gtag('config', 'G-8D024LL4FG');
-  </script>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
-  <div class="container-fluid">
 
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top"
+     style="background: rgba(33,37,41,0.95);">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#home">
+      <span style="color:#3498db;">Swathy</span> Ramakrishnan
+    </a>
 
-    <div class="container">
+    <button class="navbar-toggler border-0" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#home">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sitenavbar"
-          aria-controls="sitenavbar" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="sitenavbar">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#whatIdo">What I do <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link active" href="#projects">Projects</a>
-            <a class="nav-item nav-link active" href="#experience">Experience</a>
-            <a class="nav-item nav-link active" href="#education">Education</a>
-            <a class="nav-item nav-link active" href="#contactform">Contact</a>
-            <a class="nav-item nav-link active" href="assets/resumes/resume.pdf" name="SwathyResume">CV</a>
-          </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link mx-2 active" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link mx-2" href="#whatIdo">What I Do</a></li>
+        <li class="nav-item"><a class="nav-link mx-2" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link mx-2" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link mx-2" href="#education">Education</a></li>
+        <li class="nav-item">
+          <a class="nav-link mx-2 btn btn-outline-light py-1 px-3"
+             href="assets/resumes/resume.pdf" target="_blank">
+            CV <i class="fas fa-download ms-1"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= HERO SECTION ================= -->
+<section id="home" class="min-vh-100 d-flex align-items-center">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-4 text-center mb-4">
+        <img src="assets/images/pp.jpeg"
+             class="rounded-circle img-fluid"
+             alt="Swathy Ramakrishnan"
+             style="max-width:260px;">
+      </div>
+
+      <div class="col-lg-8">
+        <h1 class="fw-bold">Swathy Ramakrishnan</h1>
+        <h3 class="text-primary">Data Scientist</h3>
+
+        <p class="mt-3">
+          Passionate about uncovering insights from complex datasets and transforming them into
+          actionable solutions using Machine Learning, Deep Learning, and Generative AI.
+          Experienced in building end-to-end AI systems and deploying real-world applications.
+        </p>
+
+        <div class="d-flex gap-3 mt-4 flex-wrap">
+          <a href="https://www.linkedin.com/in/swathy-ramakrishnan/" target="_blank"
+             class="btn btn-outline-dark">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="https://github.com/swaty06" target="_blank"
+             class="btn btn-outline-dark">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a href="mailto:sujswa@gmail.com"
+             class="btn btn-outline-dark">
+            <i class="fa fa-envelope"></i> Email
+          </a>
         </div>
-      </nav>
+      </div>
+    </div>
+  </div>
+</section>
 
+<hr>
 
-      <div id="home">
-        <div class="row" style="height: 10%;">
-          <div class="col-lg-3">
-            <img src="assets\images\pp.jpeg" alt="profile-picture" id="pp-img" width="250" height="250">
-          </div>
-          <div class="col-lg-9">
-            <div class="display-4 m-2">Swathy Ramakrishnan </div>
-            <p class="h2 m-2 heading">Data Scientist</p>
-            <p class="text text-justify m-2">
-           Passionate about uncovering valuable insights from complex datasets and transforming them into actionable solutions. Skilled in analyzing data patterns, building predictive and machine learning models, and leveraging AI technologies to solve real-world problems. 
-              Dedicated to continuous learning and applying innovative approaches to optimize processes and drive impactful decision-making.
-            </p>
-            <div class="ml-2 pt-3">
-              <i class="fa-brands fa-linkedin fa-2xl ml-2 mr-2" style="border-radius: 10px;"></i>
-              <a href="https://www.linkedin.com/in/swathy-ramakrishnan/"><span>LinkedIn</span></a>
-              <i class="fa-brands fa-github fa-2xl ml-2 mr-2" style="border-radius: 10px;"></i>
-              <a href="https://github.com/swaty06"><span>GitHub</span></a>
-              <i class="fa fa-envelope fa-2xl ml-2 mr-2" style="border-radius: 10px;"></i>
-              <a href="mailto:sujswa@gmail.com">sujswa@gmail.com</a>
-              <i class="fa fa-file fa-2xl ml-2 mr-2" style="border-radius: 10px;"></i>
-              <a href="assets/resumes/resume.pdf">CV</a>
-            </div>
+<!-- ================= WHAT I DO ================= -->
+<section id="whatIdo" class="py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">What I Do</h2>
+      <div class="mx-auto" style="width:80px;height:3px;background:#3498db;"></div>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 text-center p-3">
+          <i class="fas fa-shield-alt fa-2x text-primary mb-3"></i>
+          <h5>Ethical AI</h5>
+          <p>Responsible and transparent AI systems following ethical standards.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 text-center p-3">
+          <i class="fas fa-robot fa-2x text-primary mb-3"></i>
+          <h5>Generative AI</h5>
+          <p>LLM-based solutions for automation, chatbots, and RAG systems.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 text-center p-3">
+          <i class="fas fa-chart-line fa-2x text-primary mb-3"></i>
+          <h5>Predictive Modeling</h5>
+          <p>Machine learning models for forecasting and classification.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Projects</h2>
+      <div class="mx-auto" style="width:80px;height:3px;background:#3498db;"></div>
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-lg-6">
+        <div class="card h-100">
+          <img src="assets/images/Urban.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5>Urban Agriculture – Milan</h5>
+            <p>ML model for crop selection & yield prediction based on soil and climate.</p>
+            <a href="https://urban-agriculture-in-milan-crop-yield.streamlit.app/"
+               target="_blank"
+               class="btn btn-sm btn-primary">
+              View Project
+            </a>
           </div>
         </div>
       </div>
-      <hr>
-      <div id="whatIdo" class="m-2">
-        <div class="h2 heading">What I do</div>
-        <div class="text"> I specialize in transforming data into intelligent systems using artificial intelligence and machine learning. My approach includes:
-          <ul>
-            <li>Adhering to ethical standards in data and AI practices to ensure fairness and transparency.</li>
-            <li>Building Generative AI solutions to tackle business challenges and automate repetitive tasks.</li>
-            <li>Designing predictive models that uncover insights, improve decision-making, and drive business growth.</li>
-            <li>Optimizing AI systems for maximum performance and cost-efficiency.</li>
-            <li>Scaling machine learning solutions to align with data-driven and industry-standard best practices.
-            </li>
-          </ul>
+
+      <div class="col-lg-6">
+        <div class="card h-100">
+          <img src="assets/images/lll_rag" class="card-img-top">
+          <div class="card-body">
+            <h5>URL Summarizer (RAG)</h5>
+            <p>LLM + ChromaDB powered summarization and Q&A for web URLs.</p>
+            <a href="https://url-summarizer-emhbqm88xs2hojxymwy7gw.streamlit.app/"
+               target="_blank"
+               class="btn btn-sm btn-primary">
+              View Project
+            </a>
+          </div>
         </div>
       </div>
 
-      <hr>
+    </div>
+  </div>
+</section>
 
+<hr>
 
-      <div id="projects" class="m-2">
-        <div class="h2 heading">Projects </div>
-        <div class="row">
-          <div class="row">
-           <div class="col-lg-3">
-              <img src="assets/images/Urban.jpg" width="250px" height="180px">
-            </div>
-            <div class="col-lg-9">
-              <div class="h3 project-title">Identifying Potential Areas for Urban Agriculture in Milan, Italy.</div>
-              <span><a class="btn btn-link my-hyperlinks"
-                  href="https://urban-agriculture-in-milan-crop-yield.streamlit.app/Crop%20Selection">Project Link</a></span>
-              <!-- <i class="fa-solid fa-link link-icon"></i> -->
-              <div class="p text text-justify">
-               The project aimed to develop a robust machine learning algorithm capable of determining the most suitable crop for specific environmental and soil conditions while also predicting the expected yield.
-                This solution empowers farmers, agricultural planners, and policymakers to make data-driven decisions to optimize crop selection and improve agricultural productivity.
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-3">
-              <img src="assets/images/lll_rag" width="250px" height="180px">
-            </div>
-            
-              <div class="col-lg-9">
-                <div class="h3 project-title">URL Summarizer</div>
-                <span><a class="btn btn-link my-hyperlinks" href="https://url-summarizer-emhbqm88xs2hojxymwy7gw.streamlit.app/">Project
-                    Link</a>
-                  </span>
-                <!-- <i class="fa-solid fa-link link-icon"></i> -->
-                <div class="p text text-justify">
-                 This tool leverages large language models (LLMs) along with Retrieval-Augmented Generation (RAG) and ChromaDB to provide concise summaries and answer questions based on general URLs provided by users. It's designed for anyone who wants to get a quick overview or specific insights from web content without having to read lengthy articles or documents.
-Simply paste up to three URLs, and the tool will generate a summary or answer specific questions you have based on the content retrieved from those links.
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-3">
-              <img src="assets/images/book.jpg" width="250px" height="180px">
-            </div>
-             
-              <div class="col-lg-9">
-                <div class="h3 project-title">LLM-Based Book Chatbot</div>
-                 <span><a class="btn btn-link my-hyperlinks" href="https://llm-based-book-chatbot-sr5t7n8i4ajdx7vtyzgyw2.streamlit.app/BookBot">Project
-                    Link</a>
-                
-                <div class="p text text-justify">
-                 This project features a simple yet powerful book-based chatbot that leverages large language models (LLMs) to answer questions about specific books. The chatbot is designed to provide quick and accurate responses based on predefined questions in CSV files, as well as handle a wide range of other inquiries using its advanced language processing capabilities.
+<!-- ================= EXPERIENCE ================= -->
+<section id="experience" class="py-5">
+  <div class="container">
+    <h2 class="fw-bold text-center mb-4">Work Experience</h2>
 
-Whether you're looking to get insights into a book's plot, characters, themes,
-                  or specific details, this chatbot can assist you with your queries, making it a valuable tool for book enthusiasts, students, and researchers alike.
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-3">
-              <img src="assets/images/google_gemini.jpeg" width="250px" height="180px">
-            </div>
-              
-              <div class="col-lg-9">
-                <div class="h3 project-title">Google-Gemini-Chatbot</div>
-                <span><a class="btn btn-link my-hyperlinks"
-                  href="https://app-gemini-chatbot-kzuzu4ldkv2s2tgrjszvxw.streamlit.app/">Project
-                  Link</a></span> 
-                <div class="p text text-justify">
-                  This chatbot contains a general-purpose chatbot developed using the Google Gemini API. The chatbot is engineered to handle a diverse array of questions, making it a robust tool for various conversational applications. Leveraging Google Gemini's 
-                  advanced natural language processing capabilities, this chatbot is designed to deliver accurate, contextually relevant, and human-like responses to user queries.
-                </div>
-              </div>
-            </div>
+    <div class="card mb-4 p-4">
+      <h5>Omdena</h5>
+      <ul>
+        <li>EDA, ML modeling, and Streamlit app development</li>
+        <li>Cross-functional collaboration with global teams</li>
+      </ul>
+    </div>
 
-            <div class="row">
-              <div class="col-lg-3">
-              <img src="assets/images/llm.jpg" width="250px" height="180px">
-            </div>
-              
-              <div class="col-lg-9">
-                <div class="h3 project-title">Web Url Summariser</div>
-                <span><a class="btn btn-link my-hyperlinks"
-                  href="https://weburlsummariser-yzamcjj4mirx3yxy6thtgq.streamlit.app/">Project
-                  Link</a></span> 
-                <div class="p text text-justify">
-                  This project is a web article summarizer that allows users to paste any article URL and receive a concise summary along with key points extracted from the content.
-It leverages large language models (LLMs) to read and understand the article, then summarizes the main ideas and highlights the most important takeaways, helping users quickly grasp the essence of lengthy content.
-                </div>
-              </div>
-            </div>
-            
-            <div class="row">
-              <div class="col-lg-3">
-              <img src="assets/images/weather.jpg" width="250px" height="180px">
-            </div>
-             
-              <div class="col-lg-9">
-                <div class="h3 project-title">Road Condition Prediction Based on Weather Data</div>
-                <span><a class="btn btn-link my-hyperlinks"
-                  href="https://weather-based-road-condition-brdxtvhblfxakbydcdjdyo.streamlit.app/">Project
-                  Link</a></span> 
-                <div class="p text text-justify">This project focuses on solving a multiclass classification problem to predict road conditions — such as Snow/Ice, Wet, or Dry — based on real-time weather data. By using features like temperature, precipitation, wind direction, and wind speed, machine learning models are trained to classify road surface states.
-This foundational model can be further enhanced with additional data sources, feature engineering, or advanced algorithms, making it suitable for applications in traffic safety, intelligent transportation systems, and automotive technologies.
+    <div class="card mb-4 p-4">
+      <h5>Tata Consultancy Services</h5>
+      <ul>
+        <li>Python-based analytical solutions</li>
+        <li>Web development & agile delivery</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
+<hr>
 
-                </div>
-              </div>
-            </div>
-          
-        
-<!--             <div class="row">
-              <div class="col-lg-9">
-                <div class="h3 project-title">Heart Attack Prediction System using Decision Tree Algorithm</div>
-                <span><a class="btn btn-link my-hyperlinks"
-                    href="https://github.com/sricharan245/python-developments/tree/8c4ad3a1de9c84d3352abc4b647d6e45e80d98b2/heartattack_prediction">GitHub
-                  </a></span>
-                <div class="p text text-justify ">
-                  Built the predictive ML model which can predict whether a patient have chance getting heart
-                  attack.
-                  Doctors and research analysts can use this model as precautionary measures for their patient and
-                  provide
-                  appropriate treatments and actions.
-                </div>
-              </div>
+<!-- ================= EDUCATION ================= -->
+<section id="education" class="py-5">
+  <div class="container">
+    <h2 class="fw-bold text-center mb-4">Education</h2>
 
-            </div>
-          
-          </div> -->
+    <div class="card p-4 mb-3">
+      <h5>Rajagiri School of Engineering and Technology</h5>
+      <p>M.Tech – Information Technology</p>
+    </div>
 
-          <hr>
-          <div id="experience" class="m-2">
-            <div class="h2 heading">Work Experience</div>
-            <div class="row">
-              
-              <div class="col-lg-10">
-                <div class="row education-row">
-                  <div class="col-lg-8">
-                    <div class="h3 project-title d-flex justify-content-left">Omdena
-                    </div>
-                  </div>
-                  <!-- <div class="col-lg-4 d-flex flex-row-reverse text">
-                Denton, TX
-              </div> -->
-                </div>
-                <div class="row education-row">
-                  <div class="col-lg-12 text text-justify">
-                    <ul style="padding-left: 0;">
-                      <li>
-                        Collaborated with customers to define and analyze product use cases, ensuring alignment with business needs.ETL pipelines. Administered users, workflows, collections, and DBMS data
-                        connections on servers.
-                      </li>
-                      <li>
-                        Performed EDA and created visualizations with Matplotlib and Seaborn to communicate key insights to stakeholders.
-                      </li>
-                      <li>
-                        Developed and validated machine learning models and algorithms using Scikit-learn, optimizing through cross-validation and tuning.                     
-                      </li>
-                       <li>
-                       Contributed to a Streamlit web app, integrating models for real-time predictions and ensuring a smooth user experience.                      
-                       </li>
-                      <li>
-                      Collaborated in Scrum meetings, documented processes, and presented findings,
-                        receiving positive feedback from the sponsor.                       </li>
-                      
-                    </ul>
+    <div class="card p-4">
+      <h5>Rajagiri School of Engineering and Technology</h5>
+      <p>B.Tech – Information Technology</p>
+    </div>
+  </div>
+</section>
 
-                    <!-- <br> -->
+<!-- ================= FOOTER ================= -->
+<footer class="text-center py-3 bg-dark text-light">
+  © 2025 Swathy Ramakrishnan | Last updated 11/07/2025
+</footer>
 
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row">
-<!--               <div class="col-lg-2 d-flex justify-content-center">
-                <img src="assets/images/infosysicon.jpeg" width="100px" height="100px">
-              </div> -->
-              <div class="col-lg-10">
-                <div class="row education-row">
-                  <div class="col-lg-8">
-                    <div class="h3 project-title d-flex justify-content-left">Tata Consultancy Services</div>
-                  </div>
-                  <!-- <div class="col-lg-4 d-flex flex-row-reverse text">
-                Denton, TX
-              </div> -->
-                </div>
-                
-                <div class="row education-row">
-                  <div class="col-lg-12 text text-justify">
-                    <ul style="padding-left: 0;">
-                      <li>
-                        Improved solution efficiency by 30% using Python to solve challenging analytical problems
-                      </li>
-                      <li>
-                        Improved team productivity by 15% by providing support and guidance in collaborative projects                      </li>
-                      <li>
-                        Developed software that automatically adjusts to fit 
-                        different screen sizes on desktop and mobile operating systems
-                      </li>
-                        <li>
-                      Skilled in source code management and possessing strong practical experience in web development
-                      </li>
-                      <li>
-                                   Led Scrum development practices maintaining on-time milestone achievement                      
-                      </li>
-                      
-                    </ul>
-
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
- <div class="col-lg-10">
-                <div class="row education-row">
-                  <div class="col-lg-8">
-                    <div class="h3 project-title d-flex justify-content-left">Activelogica Lifescience Innovations Pvt Ltd
-                    </div>
-                  </div>
-                
-                </div>
-                <div class="row education-row">
-                  <div class="col-lg-12 text text-justify">
-                    <ul style="padding-left: 0;">
-                      <li>
-                        Increased efficiency by 30% by deploying calculation-capable chatbots on Microsoft Azure using trained datasets.
-                      </li>
-                      <li>
-                     Implemented business intelligence solutions to increase operational efficiency                    
-                      </li>
-                      <li>
-                Possess hands-on experience in installation, configuration, and testing of various components within Hadoop ecosystem   
-                        
-                    </ul>
-
-                    <!-- <br> -->
-
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            
-            <hr>
-            <div id="education" class="m-2">
-              <div class="h2 heading">Education</div>
-              <div class="row">
-                
-                <div class="col-lg-10">
-                  <div class="row education-row">
-                    <div class="col-lg-8">
-                      <div class="h3 project-title d-flex justify-content-left">Rajgiri School Of Engineering and Technology</div>
-                    </div>
-                    <div class="col-lg-4 d-flex flex-row-reverse text">
-                      Kochi, India
-                    </div>
-                  </div>
-                  <div class="row education-row">
-                    <div class="col-lg-6 float-left text">
-                      Master of technology: information technology
-                    </div>
-                    <div class="col-lg-6 d-flex flex-row-reverse text">
-                      July 2015 - April 2017
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="row">
-                
-                <div class="col-lg-10">
-                  <div class="row education-row">
-                    <div class="col-lg-6">
-                      <div class="h3 project-title d-flex justify-content-left">Rajgiri School Of Engineering and Technology</div>
-                    </div>
-                    <div class="col-lg-6 d-flex flex-row-reverse text">
-                      Kochi, India
-                    </div>
-                  </div>
-                  <div class="row education-row">
-                    <div class="col-lg-8 float-left text">
-                      Bachelor of technology: information technology
-                    </div>
-                    <div class="col-lg-4 d-flex flex-row-reverse text">
-                      July 2011 - May 2015
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <hr>
-            <!-- <div class="h2 heading">Contact</div>
-            <div id="contactform" class="mb-2">
-              <div class="mx-auto">
-                <a href="mailto:sricharan0246@gmail.com">sricharan0246@gmail.com</a>
-              </div>
-            </div> -->
-
-            <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-
-      </nav> -->
-            <footer class="page-footer blue m-auto" style="background-color: black;color: white;height: 60px;">
-              <div class="m-auto text-center p-3"><span><a href="privacypolicy.html">Privacy Policy</a> | </span> © 2025
-                Copyright:
-                <a href="/">Swathy Ramakrishnan</a> |
-                <span>Last updated on 11/07/2025</span>
-              </div>
-            </footer>
-          </div>
-        </div>
 </body>
-
 </html>
